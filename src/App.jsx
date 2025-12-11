@@ -1,6 +1,8 @@
 import Header from "./Components/Header"
 import Main from "./Components/Main"
+import SectionNav from "./Components/SectionNav"
 import Footer from "./Components/Footer"
+
 
 
 
@@ -12,6 +14,7 @@ function App() {
     <div>
       <Header />
       <Main />
+      <SectionNav />
       <Footer />
     </div>
   )

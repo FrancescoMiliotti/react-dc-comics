@@ -3,7 +3,7 @@ function Main() {
     return (
         <main>
             <div className="flex-container">
-                <h1>CONTENT QUI</h1>
+                <h1>CONTENUTI QUI</h1>
             </div>
         </main>
     )

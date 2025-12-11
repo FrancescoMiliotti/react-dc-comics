@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-}   
+}
 
 body {
 
@@ -13,10 +13,14 @@ body {
     background-color: black;
 }
 
-.flex-container{
-
-    max-width: 1200px;
+.flex-container {
+    display: flex;
+    max-width: 1400px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+
 }
 
 #header-logo {
@@ -37,4 +41,26 @@ footer {
     min-height: 50vh;
     background-image: url(/footer-bg.jpg);
     background-size: cover;
+}
+
+section {
+
+    min-height: 30vh;
+    background-color: rgb(2, 130, 250);
+}
+
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar li {
+    padding: 1rem;
+
+}
+
+section img {
+    padding: 2rem 1rem;
+    height: 150px;
 }
