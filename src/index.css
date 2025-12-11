@@ -9,4 +9,14 @@ body {
 
     font-family: sans-serif;
     min-height: 100vh;
+    background-color: black;
+}
+
+#header-logo {
+
+    padding: 1em;
+}
+
+header {
+    background-color: white;
 }
