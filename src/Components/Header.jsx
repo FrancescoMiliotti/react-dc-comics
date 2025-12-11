@@ -1,8 +1,10 @@
 function Header() {
 
-    return ( 
+    return (
         <header>
-            <img id="header-logo" src="/dc-logo.png" alt="logo dc" />
+            <div className="flex-container">
+                <img id="header-logo" src="/dc-logo.png" alt="logo dc" />
+            </div>
         </header>
     )
 }

@@ -1,8 +1,10 @@
 function Main() {
 
-    return ( 
+    return (
         <main>
-            <h1>MAIN</h1>
+            <div className="flex-container">
+                <h1>CONTENT QUI</h1>
+            </div>
         </main>
     )
 }

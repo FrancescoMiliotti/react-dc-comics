@@ -13,6 +13,12 @@ body {
     background-color: black;
 }
 
+.flex-container{
+
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 #header-logo {
 
     padding: 1em;
@@ -30,4 +36,5 @@ footer {
 
     min-height: 50vh;
     background-image: url(/footer-bg.jpg);
+    background-size: cover;
 }
