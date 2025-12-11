@@ -8,6 +8,7 @@
 body {
 
     font-family: sans-serif;
+    color: white;
     min-height: 100vh;
     background-color: black;
 }
@@ -19,4 +20,14 @@ body {
 
 header {
     background-color: white;
+}
+
+main {
+    min-height: 80vh;
+}
+
+footer {
+
+    min-height: 50vh;
+    background-image: url(/footer-bg.jpg);
 }
