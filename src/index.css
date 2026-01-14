@@ -73,3 +73,20 @@ section img {
     background-size: cover;
     
 }
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.comics-card {
+    width: calc(100% / 6);
+}
+
+.comics-card img {
+    width: 100%
+    
+}

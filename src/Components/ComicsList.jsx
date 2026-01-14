@@ -5,15 +5,22 @@ const ComicsList = () => {
     return <>
         <h2>Current Series</h2>
 
-        {comicsArray.map(fumetto => {
-            return <div>{fumetto.title}
-            <img src={fumetto.thumb} alt="img" />
-            
-            
-            </div>
-        })}
+        <div id="card-container">
+
+            {comicsArray.map(fumetto => {
+                return <div className="comics-card">
+                    
+                    <img src={fumetto.thumb} alt="img" />
+                    <h3>{fumetto.title}</h3>
+
+
+                </div>
+            })}
+
+
+        </div >
     </>
-         
+
 }
 
 
