@@ -1,4 +1,4 @@
-import comicsArray from "../Data/comics"
+import comicsArray from "../data/comics"
 
 const ComicsList = () => {
 

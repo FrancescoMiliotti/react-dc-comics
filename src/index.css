@@ -79,14 +79,23 @@ section img {
     flex-wrap: wrap;
     max-width: 1400px;
     margin: 0 auto;
+    gap: 1rem;
 }
 
 
 .comics-card {
-    width: calc(100% / 6);
+    width: calc((100% - 5rem) / 6);
 }
 
 .comics-card img {
-    width: 100%
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    object-position: top;
     
+    
+}
+
+.comics-card h3 {
+    font-size: 0.8rem;
 }
