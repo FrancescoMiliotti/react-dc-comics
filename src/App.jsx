@@ -1,6 +1,6 @@
 import Header from "./Components/Header"
 import Jumbotron from "./Components/Jumbotron"
-import Main from "./Components/Main"
+import ComicsList from "./Components/ComicsList"
 import SectionNav from "./Components/SectionNav"
 import Footer from "./Components/Footer"
 
@@ -15,7 +15,7 @@ function App() {
     <div>
       <Header />
       <Jumbotron />
-      <Main />
+      <ComicsList />
       <SectionNav />
       <Footer />
     </div>
