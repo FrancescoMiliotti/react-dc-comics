@@ -8,7 +8,7 @@ const ComicsList = () => {
         <div id="card-container">
 
             {comicsArray.map(fumetto => {
-                return <div className="comics-card">
+                return <div className="comics-card" key={fumetto.id}> 
                     
                     <img src={fumetto.thumb} alt="img" />
                     <h3>{fumetto.title}</h3>

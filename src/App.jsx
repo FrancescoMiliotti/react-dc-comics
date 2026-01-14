@@ -1,8 +1,8 @@
-import Header from "./Components/Header"
-import Jumbotron from "./Components/Jumbotron"
-import ComicsList from "./Components/ComicsList"
-import SectionNav from "./Components/SectionNav"
-import Footer from "./Components/Footer"
+import Header from "./components/Header"
+import Jumbotron from "./components/Jumbotron"
+import ComicsList from "./components/ComicsList"
+import SectionNav from "./components/SectionNav"
+import Footer from "./components/Footer"
 
 
 
