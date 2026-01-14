@@ -30,6 +30,7 @@ body {
 
 header {
     background-color: white;
+    color: black;
 }
 
 main {
@@ -45,13 +46,14 @@ footer {
 
 section {
 
-    min-height: 30vh;
+    height: 20vh;
     background-color: rgb(2, 130, 250);
 }
 
 
 .navbar ul {
     display: flex;
+    list-style: none;
 
 }
 
@@ -63,4 +65,11 @@ section {
 section img {
     padding: 2rem 1rem;
     height: 150px;
+}
+
+.jumbotron {
+    height: 12rem;
+    background-image: url(../public/jumbotron.jpg);
+    background-size: cover;
+    
 }

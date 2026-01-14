@@ -1,3 +1,40 @@
+
+const links = [
+    {
+        id: 1,
+        text: "CHARACTERS",
+        url: "#",
+    },
+    {
+        id: 2,
+        text: "COMICS",
+        url: "#",
+    },
+    {
+        id: 3,
+        text: "MOVIES",
+        url: "#",
+    },
+    {
+        id: 4,
+        text: "TV",
+        url: "#",
+    },
+    {
+        id: 5,
+        text: "GAMES",
+        url: "#",
+    },
+    {
+        id: 6,
+        text: "VIDEOS",
+        url: "#",
+    },
+]
+
+
+
+
 function Header() {
 
     return (
@@ -6,16 +43,16 @@ function Header() {
                 <img id="header-logo" src="/dc-logo.png" alt="logo dc" />
                 <nav className="navbar">
                     <ul>
-                        <li><a href="#">CHARACTERS</a></li>
-                        <li><a href="#">COMICS</a></li>
-                        <li><a href="#">MOVIES</a></li>
-                        <li><a href="#">TV</a></li>
-                        <li><a href="#">GAMES</a></li>
-                        <li><a href="#">COLLECTIBLES</a></li>
-                        <li><a href="#">VIDEOS</a></li>
-                        <li><a href="#">FANS</a></li>
-                        <li><a href="#">NEWS</a></li>
-                        <li><a href="#">SHOP</a></li>
+                        {
+                            links.map((link,i) => {
+                               return <li key={i}> {link.text}</li>
+
+                            })
+                            
+
+                        }
+                        
+                        
                     </ul>
                 </nav>
             </div>
