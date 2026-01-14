@@ -1,4 +1,5 @@
 import comicsArray from "../data/comics"
+import ComicCard from "./ComicCard"
 
 const ComicsList = () => {
 
@@ -8,14 +9,10 @@ const ComicsList = () => {
         <div id="card-container">
 
             {comicsArray.map(fumetto => {
-                return <div className="comics-card" key={fumetto.id}> 
-                    
-                    <img src={fumetto.thumb} alt="img" />
-                    <h3>{fumetto.title}</h3>
 
+                return <ComicCard img={fumetto.thumb} title={fumetto.title}  key={fumetto.id} />
 
-                </div>
-            })}
+               })}
 
 
         </div >
